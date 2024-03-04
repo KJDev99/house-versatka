@@ -1,0 +1,117 @@
+@media (max-width: 576px) {
+  .nav_list {
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    background: #111;
+    height: 400px;
+    padding-left: 0 !important;
+    left: 0;
+    padding: 20px;
+    border-radius: 10px;
+    top: -410px;
+    transition: 0.3s;
+  }
+  .nav_list-active {
+    top: 80px;
+  }
+  .nav_link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .nav_btn {
+    position: absolute;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%);
+    transition: 0.3s;
+    top: -360px;
+  }
+  .nav_btn-active {
+    top: 350px;
+  }
+  .nav_btn button {
+    margin-bottom: 20px;
+  }
+  .header_content h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 125px;
+    margin-bottom: 21px;
+  }
+  .header_content p {
+    color: #fff;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+  .head_input {
+    display: none;
+  }
+  .nav_menu {
+    display: block;
+    cursor: pointer;
+  }
+  .open_menu,
+  .close_menu {
+    color: white;
+    font-size: 28px;
+  }
+  .d-none {
+    display: none;
+  }
+
+  .one_left {
+    padding-right: 0px;
+  }
+  .one_left h3 {
+    font-size: 24px;
+  }
+  .one_left button {
+    margin-bottom: 40px;
+  }
+  .two_left {
+    padding-left: 0px !important;
+    padding-right: 0;
+  }
+  .sec_two {
+    margin-top: 40px;
+  }
+  .sec_two .one_content {
+    flex-direction: column-reverse;
+  }
+  .four_title h3 {
+    width: 100%;
+  }
+  .four_content {
+    width: 100%;
+    justify-content: center;
+  }
+  .five_content {
+    height: max-content;
+  }
+  .input_name {
+    width: 100%;
+  }
+  .six_left {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .six_right {
+    padding-left: 16px;
+    margin-top: 36px;
+  }
+}
